@@ -1,6 +1,23 @@
 <h1>PORTFOLIO</h1>
 
 <style>
+
+.floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 5px); }
+  100%   { transform: translate(0, -0px); }    
+}
+
+    
 .title{
 margin-left: 550px;
 font-family: monospace;
@@ -44,8 +61,8 @@ body{
 
 <body>
     <div class="div1">
-        <img style="height: 500px; width: 500px; margin-top:100px; border-radius: 50%;" src="https://scontent-mnl1-1.xx.fbcdn.net/v/t39.30808-6/405086143_1049877422703067_1535459250731260640_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeEc9O2SgotcOUGh3PwiMR0LtxO0liNLb3u3E7SWI0tve__JWgToUdY0Gr3J4SYMtjMq_sgx6ZIuBj3GJPGmjIEX&_nc_ohc=oW0_CbAILOwAX9FhoMr&_nc_ht=scontent-mnl1-1.xx&oh=00_AfDm4Jyc9kyeCd8YK2aEB876VLRZXcB00b49QPVv7h_Mdg&oe=6579E9D3">
-        <div class="container">  <h1 class="title">Hi,<br> I'm Churchill Duane</h1>
+        <img class="floating" style="height: 500px; width: 500px; margin-top:100px; border-radius: 50%;" src="https://scontent-mnl1-1.xx.fbcdn.net/v/t39.30808-6/405086143_1049877422703067_1535459250731260640_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeEc9O2SgotcOUGh3PwiMR0LtxO0liNLb3u3E7SWI0tve__JWgToUdY0Gr3J4SYMtjMq_sgx6ZIuBj3GJPGmjIEX&_nc_ohc=oW0_CbAILOwAX9FhoMr&_nc_ht=scontent-mnl1-1.xx&oh=00_AfDm4Jyc9kyeCd8YK2aEB876VLRZXcB00b49QPVv7h_Mdg&oe=6579E9D3">
+        <div class="container">  <h1 class="title floating">Hi,<br> I'm Churchill Duane</h1>
             <p class="Discription"> Welcome to my Online Portfolio! I am Churchill, an IT student and a fake web dev. <br> Here lies my Activities.   </p>
         </div>
         
