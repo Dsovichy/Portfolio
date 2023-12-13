@@ -1,5 +1,21 @@
 <h1 style="background-color: black; ">About Me</h1>
 <style>
+
+.floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 5px); }
+  100%   { transform: translate(0, -0px); }    
+}
+
 .div1{
     height: 343px;
     background-color: rgba(0, 0, 0, 0.358);
@@ -50,7 +66,7 @@ transition: .5s ease;
 
 <body>
     <div class="div1">
-        <img style="width: 300px; margin-left: 20px; margin-top: 20px; border-radius: 80%;" src="https://i.pinimg.com/736x/85/46/40/854640b184b50671c17ac3a971ab025c.jpg">
+        <img class="floating" style="width: 300px; margin-left: 20px; margin-top: 20px; border-radius: 80%;" src="https://i.pinimg.com/736x/85/46/40/854640b184b50671c17ac3a971ab025c.jpg">
     </div>
 
 <div class="div2">
